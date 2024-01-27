@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0; }
+
+html {
+    background-color: #8A6240;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #f1f1f1;
+}
+
+
+.header-area {
+    width: 100%;
+    height: 80px; 
+    background-color: #CABA9C;
+    z-index: 1;}
+.page-logo {
+    margin: 5px;
+}
+
+
+.bg-img {
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+    background-position: center;}
+.hero-slide-content{
+    background-color: rgb(0,0,0,0.65);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffff;}
+.hero-slide-content h4 {
+    margin: 10px;
+    font-size: 20px;}
+.hero-slide-content h2 {
+    font-size: 50px;
+    margin-bottom: 10px;}
+.btn_login{
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+
+}
+
+.login-form-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 0.15;}
+.login-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #8A6240;
+    padding: 20px 40px;
+    text-align: center;
+    font-size: 20px;
+    width: 250px;
+    height: 200px;
+}
+.btn_close{
+    font-size: 25px;
+    color:#f1f1f1;
+    background-color: rgb(0,0,0,0.3);
+    padding: 0px 8px;
+    border-color: #00000000;
+    position:absolute;
+    top: 0%;
+    right: 0%;
+}
+.btn_close:hover{
+    background-color: rgb(0,0,0,0.5);
+    transition: 0.15s;
+}
+.btn_login_form{
+    font-size: 25px;
+    color:#f1f1f1;
+    background-color: #6c971f;
+    padding: 5px 12px;
+    border-color: #00000000;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.btn_login_form:hover{
+    background-color: #81BE1C;
+    transform: scale(1.05);
+    transition: 0.15s;
+}
+#loginMessage{
+    text-align: center;
+    font-style: italic;
+    color: #CABA9C;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.btn_Forgot_Pw{
+    font-size: 15px;
+    color:#f1f1f1;
+    background-color: rgb(0,0,0,0.3);
+    padding: 0px 8px;
+    border-color: #00000000;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.btn_Forgot_Pw:hover{
+    background-color: rgb(0,0,0,0.5);
+    transform: scale(1.05);
+    transition: 0.15s;
+}
+
+
+
+
+
+.general_button {
+    font-size: 25px;
+    color:#f1f1f1;
+    font-weight: 600;
+    background-color: #6c971f;
+    /* Separador para que sea más fácil leer CSS */
+    padding: 12px 25px;
+    border-radius: 10px;
+    border-color: #00000000;
+}
+.general_button:hover {
+    background-color: #81BE1C;
+    transform: scale(1.05);
+    transition: 0.15s;
+}
+

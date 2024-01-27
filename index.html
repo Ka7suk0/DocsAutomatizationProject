@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<script src="js/login.js"></script>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/styles.css">
+
+
+    <link rel="icon" href="resouces/img/favicon.ico">
+    <title>DAP - Docs Automatization Project</title>
+</head>
+
+
+<body>
+    <header class="header-area">
+        <div class="page-logo">
+            <a href="index.html"><img src="resources/img/logo.png" alt=""></a>
+        </div>
+    </header>
+
+<section class="hero-area">
+    <div class="bg-img" style="background-image: url(resources/img/bg-img/bg.jpg);">
+        <div class="hero-slide-content">
+                <h4>All the documents you need</h4>
+                <h2>Manage and export your documents</h2>
+                <button class="general_button btn_login" type="button" onclick="showLoginForm()">Login</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="login-form-container" id="loginFormContainer">
+    <div class="login-form">
+        <form>
+            <button class="btn_close" type="button" onclick="hideLoginForm()">X</button>
+            <p></p>
+            <label for="email">Email:</label>
+            <p></p>
+            <input type="text" id="email" name="email">
+            <p></p>
+            <label for="password">Password:</label>
+            <p></p>
+            <input type="password" id="password" name="password">
+            <p></p>
+            <button class="btn_login_form"type="button" onclick="login()">Log In</button>
+            <p></p>
+            <span id="loginMessage"></span>
+            <p></p>
+            <button class="btn_Forgot_Pw" type="button" onclick="forgotPw()">Forgot Password</button>
+        </form>
+    </div>
+</div>
+
+    <!-- Nuestro test -->
+    <!-- <div class="general_button button1">
+        <a href="">Iniciar sesión</a></div>
+        
+        <div class="general_button button2">
+            <a href="">Reestablecer contraseña</a>
+        </div> -->
+        <!-- Termina nuestro test -->
+        
+        <!--<br><br><br>-->
+
+        <!-- Empieza ChatGPT
+        <form id="loginForm">
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <button class="general_button" type="button" onclick="checkEmail()">Iniciar sesión</button>
+            <span id="loginMessage"></span>
+        </form>
+        <script src="js/login.js"></script>
+        Termina ChatGPT -->
+
+</body>
+
+<footer>
+</footer>
+
+</html>
